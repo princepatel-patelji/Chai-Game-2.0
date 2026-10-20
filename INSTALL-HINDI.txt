@@ -1,0 +1,31 @@
+CHAI CATCHER FIXED BUILD — UPLOAD KARNE KE STEPS
+
+IMPORTANT: ZIP ko seedha GitHub par website ke code ki tarah upload mat karna. Pehle Extract All karo.
+
+SABSE AASAAN / SAFE TAREEKA — GITHUB DESKTOP
+
+1. Is ZIP ko download karke Windows mein right-click > Extract All karo.
+2. Extracted folder `chai-catcher-fixed` kholo. Iske andar index.html, styles.css, js, assets, sw.js aur manifest file hain.
+3. GitHub Desktop kholo. Agar repository pehle se clone hai, uska local folder dhoondo. Agar clone nahi hai:
+   - File > Clone Repository > URL tab
+   - https://github.com/princepatel-patelji/Food-Collecting-Game-2.0.git paste karo
+   - Local path choose karo > Clone.
+4. Repository ke local folder ka backup bana lo.
+5. Extracted `chai-catcher-fixed` folder KE ANDAR KI SAARI FILES/FOLDERS ko copy karo. GitHub Desktop wale repository ROOT mein paste karo. Same naam ki files ke liye Replace/Overwrite choose karo. `index.html` root mein hona chahiye, `js` folder ke andar alag-alag JS files honi chahiye aur `assets/icons` ke andar icons.
+6. GitHub Desktop mein Changes dekho. Summary mein likho: `Fix gameplay countdown, controls and game modes`.
+7. Commit to main karo, phir Push origin dabao.
+8. GitHub repository > Settings > Pages mein branch `main` aur folder `/(root)` selected rehna chahiye.
+9. Deployment complete hone ke baad game kholo. Ctrl+Shift+R dabao.
+10. Agar purana version aaye: Edge mein F12 > Application > Service Workers > Unregister; phir Storage > Clear site data; phir page reload.
+
+KYA FIX HUA HAI?
+- Get Ready ab 3 second ka hai; 60 second tak game start hone ka intezar nahi karna padega.
+- Snacks game ke start hone ke baad girenge.
+- Mouse click/drag aur touch se tray move hogi; arrows/A/D bhi supported hain.
+- Endless mode ab turant Game Over nahi hota; timer count-up hota hai.
+- Challenge mode mein sahi food catch karne se count badhega aur 20 catches par success hoga.
+- Settings ka Classic round duration apply hota hai.
+- Pause/Resume, Home aur Game Over buttons actual clickable HTML buttons hain.
+- Valid PNG icons aur naya service-worker cache version shamil hai.
+
+Agar upload karne se pehle repository mein koi local, uncommitted kaam hai, use backup/commit kar lena.

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#24143d">
+  <meta name="description" content="Catch delicious desi snacks, dodge the chaos, and chase your high score in Chai Catcher: Desi Dash.">
+  <title>CHAI CATCHER: DESI DASH</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+</head>
+<body>
+  <main id="game-container" aria-label="Chai Catcher game">
+    <canvas id="gameCanvas" aria-label="Game board. Use left/right arrows or A/D to move the tray; click or drag on the board to move it." tabindex="0"></canvas>
+    <div id="ui-overlay" aria-live="polite"></div>
+  </main>
+
+  <script src="./js/settings.js"></script>
+  <script src="./js/storage.js"></script>
+  <script src="./js/audio.js"></script>
+  <script src="./js/input.js"></script>
+  <script src="./js/objects.js"></script>
+  <script src="./js/renderer.js"></script>
+  <script src="./js/game.js"></script>
+  <script src="./js/ui.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
